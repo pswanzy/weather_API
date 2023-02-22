@@ -16,15 +16,15 @@ app.get("/", function(req, res) {
       console.log(response.statusCode);
       response.on("data", function(data) {
         const weatherData = JSON.parse(data); // takes JSON string and makes object {name:"value", } pairs
-        const temp = weatherData.main.temp;
+        //const temp = weatherData.main.temp;
         const humidity = weatherData.main.humidity; // add humidity and wind speed data
         const description = weatherData.weather[0].description;
         const windSpeed = weatherData.wind.speed;
         const icon = weatherData.weather[0].icon;
         const imgURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
 
-        res.write("<h3>The temperature in " + query + " is " + temp + " degrees Farenheit</h3>");
-        res.write("<h3>The weather is currently " + description + "</h3>");
+        //res.write("<h3>The temperature in " + query + " is " + temp + " degrees Farenheit</h3>");
+        res.write("<h3>The weather in " + query + " is currently " + description + "</h3>");
         //add humidity and windspeed headings
         res.write("<h3>The humidity is " + humidity + "%</h3>");
         res.write("<h3>The current wind speed is " + windSpeed + " mph</h3>");
