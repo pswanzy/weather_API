@@ -1,3 +1,9 @@
+Write the code in Repl.it to display the current weather in Hawaii using Open Weather API, your own token and parameters - Latitude and Longitude. For example, using Google, I can determine the GPS coordinates for Kahului in Decimal Degrees (DD) to be approximately 20.87 and -156.45 Use this link to determine your GPS location, if different than Kahului, Maui - https://www.gps-coordinates.net/
+Update the code from Week 7 to include a form that takes in Latitude and Longitude as input in string format. Review the API docs here - https://openweathermap.org/current
+Display the following information for specified latitude and longitude (in Decimal Degrees) - Description, Temp, Icon, Humidity, Wind Speed, Cloudiness 
+Save the Code in Repl.It and GitHub Repo. Post the URL from Repl.It and GitHub in your Laulima Drobox by Sunday 3/5 11:59. 2 points.
+
+//
 Homework for Week 7 - Update weather repl to do the following steps - 
 
 x    Update the API Key as noted above, so that you are using your own key and not mine!
